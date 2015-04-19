@@ -45,8 +45,8 @@ public class DBConnect {
 	{
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			 con = DriverManager.getConnection("jdbc:mysql://db4free.net/saiprasadm", "saiprasad", "Saiprasad1996");
-	           
+			 //con = DriverManager.getConnection("jdbc:mysql://db4free.net/saiprasadm", "saiprasad", "Saiprasad1996");
+	          con= DriverManager.getConnection("jdbc:mysql://sql3.freemysqlhosting.net/sql374493", "sql374493", "gH6%sC6*");
 			st = con.createStatement();
 		} catch (ClassNotFoundException e) {
 			System.out.println("ClassNotFoundException");
